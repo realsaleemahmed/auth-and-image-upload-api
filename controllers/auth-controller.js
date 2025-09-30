@@ -28,7 +28,7 @@ const registerUser = async (req, res) => {
     //   password : hashedPassword,
     //   role : role || 'user'
     // })
-    // */
+    // lengthy method but it makes await makes it sure that it will get created first*/
     const newlyCreatedUser = new User({
       username,
       email,
